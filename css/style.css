@@ -1,11 +1,10 @@
-/*--------------------------------------------------------------------- File Name: style.css ---------------------------------------------------------------------*/
+--------------------------------------------------------------------- File Name: style.css ---------------------------------------------------------------------*/
 /*--------------------------------------------------------------------- import Files ---------------------------------------------------------------------*/
 
 @import url(animate.min.css);
 @import url(normalize.css);
 @import url(icomoon.css);
 @import url(css/font-awesome.min.css);
-@import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
 @import url(meanmenu.css);
 @import url(owl.carousel.min.css);
 @import url(swiper.min.css);
@@ -28,11 +27,12 @@ html {
 
 body {
     color: #666666;
-    font-size: 14px;
+    font-size: 12px;
     line-height: 1.80857;
     font-weight: normal;
     overflow-x: hidden;
     font-family: 'Cairo', sans-serif;
+    /* font-family: 'Alexandria', sans-serif; */
 }
 
 a {
@@ -215,10 +215,11 @@ button {
 .banner_bg_main {
     width: 100%;
     float: left;
-    background-image: url(../images/banner.png);
+    background-image: url(../images/banner-bg.png);
     height: auto;
     background-size: 100%;
     background-repeat: no-repeat;
+   /*  background-color: #2af402; */
 }
 
 
